@@ -6,5 +6,5 @@
 
 - [Video demo](https://vimeo.com/196434705)
 
-- Here is a screenshot of the game demo:
+- Here is a screenshot of the game:
 ![Demo Screenshot](https://raw.githubusercontent.com/kelvinhu9988/flappy-bird-demo/master/Demo.png)
