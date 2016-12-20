@@ -28,15 +28,14 @@ Player::~Player()
 }
 
 bool Player::loadTextures(SDL_Renderer* renderer) {
-    std::string fileBase = "/Users/Kelvin/Desktop/Game_Programming/HW6PlatformGameDemo/PlatformGameDemo";
+    std::string fileBase = "/Users/Kelvin/Desktop/Game_Programming/HW6PlatformGameDemo/img/player/";
     std::string fileEx = ".png";
     bool success = true;
     
     for (int i = 1; i <= 8; ++i)
     {
         std::string fileName;
-        fileName = "" + fileBase;
-        fileName += "/player/" + std::to_string(i) + fileEx;
+        fileName = fileBase + std::to_string(i) + fileEx;
         
         LTexture* newTexture = new LTexture(1);
         newTexture->loadFromFile(fileName, renderer);
