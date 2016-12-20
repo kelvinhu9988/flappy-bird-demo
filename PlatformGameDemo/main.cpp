@@ -14,13 +14,12 @@
 #include "Star.hpp"
 using namespace std;
 
-
 SDL_Window* window = NULL;
 SDL_Renderer* renderer = NULL;
 const int FRAMES_PER_SECOND = 60;
 const Uint8 *KEYS = SDL_GetKeyboardState(NULL);
-const string PATH_BACKGROUND = "/Users/Kelvin/Desktop/Game_Programming/PlatformGameDemo/PlatformGameDemo/scroll_background.png";
-const string PATH_STAR = "/Users/Kelvin/Desktop/Game_Programming/PlatformGameDemo/PlatformGameDemo/star.png";
+const string PATH_BACKGROUND = "/Users/Kelvin/Desktop/Game_Programming/HW6PlatformGameDemo/PlatformGameDemo/scroll_background.png";
+const string PATH_STAR = "/Users/Kelvin/Desktop/Game_Programming/HW6PlatformGameDemo/PlatformGameDemo/star.png";
 #define WINDOW_WIDTH 960
 #define WINDOW_HEIGHT 600
 

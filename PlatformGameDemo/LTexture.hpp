@@ -26,7 +26,7 @@ public:
     
     ~LTexture();
     
-    bool loadFromFile(std::string pathEntity, SDL_Renderer* renderer);
+    bool loadFromFile(std::string path, SDL_Renderer* renderer);
     
     
     void free();
@@ -40,17 +40,17 @@ public:
 
     int getTextureWidth()
     {
-        return entityTextureWidth;
+        return textureWidth;
     }
     
     int getTextureHeight()
     {
-        return entityTextureHeight;
+        return textureHeight;
     }
     
     SDL_Texture* getTexture()
     {
-        return entityTexture;
+        return texture;
     }
     
     int getFrames()
@@ -59,9 +59,9 @@ public:
     }
     
 private:
-    SDL_Texture* entityTexture;
-    int entityTextureWidth;
-    int entityTextureHeight;
+    SDL_Texture* texture;
+    int textureWidth;
+    int textureHeight;
     int nframes;
 };
 

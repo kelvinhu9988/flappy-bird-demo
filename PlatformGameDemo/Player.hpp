@@ -52,7 +52,7 @@ public:
     
     
     bool loadTextures(SDL_Renderer* renderer) {
-        std::string fileBase = "/Users/Kelvin/Desktop/Game_Programming/PlatformGameDemo/PlatformGameDemo";
+        std::string fileBase = "/Users/Kelvin/Desktop/Game_Programming/HW6PlatformGameDemo/PlatformGameDemo";
         std::string fileEx = ".png";
         bool success = true;
         
