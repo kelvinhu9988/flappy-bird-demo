@@ -103,8 +103,26 @@ void LTexture::render(int x, int y, SDL_Rect* clip, SDL_Renderer* renderer, SDL_
 }
 
 
+int LTexture::getTextureWidth()
+{
+    return textureWidth;
+}
 
 
+int LTexture::getTextureHeight()
+{
+    return textureHeight;
+}
+
+SDL_Texture* LTexture::getTexture()
+{
+    return texture;
+}
+
+int LTexture::getFrames()
+{
+    return nframes;
+}
 
 
 
